@@ -8,4 +8,4 @@ This Python script fetches daily Open, High, Low, and Close (OHLC) data for ever
 - Utilizes the ibkrAPI to interact with the Interactive Brokers platform.
 - Employs threading to handle multiple requests concurrently.
 - Uses a semaphore to limit the number of simultaneous API requests.
-- Implements a custom await mechanism to ensure all data is fetched before proceeding.
+- Implements a custom await mechanism to ensure all requested data is received before proceeding.
